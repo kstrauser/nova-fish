@@ -1,0 +1,10 @@
+{
+    "identifier": "net.honeypot.Fish",
+    "name": "Fish",
+    "organization": "Honeypot.net",
+    "description": "Syntax highlighting for Fish shell scripts.",
+    "version": "0.1",
+    "categories": ["languages"],
+    "homepage": "https://github.com/kstrauser/nova-fish",
+    "bugs": "https://github.com/kstrauser/nova-fish/issues"
+}
