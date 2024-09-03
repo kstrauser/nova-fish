@@ -3,8 +3,27 @@
     "name": "Fish",
     "organization": "Honeypot.net",
     "description": "Syntax highlighting for Fish shell scripts.",
-    "version": "0.1",
-    "categories": ["languages"],
+    "version": "0.2",
+    "categories": ["languages", "commands"],
     "homepage": "https://github.com/kstrauser/nova-fish",
-    "bugs": "https://github.com/kstrauser/nova-fish/issues"
+    "bugs": "https://github.com/kstrauser/nova-fish/issues",
+    "main": "main.js",
+    "languages": ["fish"],
+    "commands": {
+        "editor": [{
+            "title": "Indent the Fish script",
+            "command": "indentFishScript",
+            "when": "editorHasFocus && editorSyntax == 'fish'"
+        }]
+    },
+    "entitlements": {
+        "process": true
+    },
+    "config": [{
+        "key": "net.honeypot.Fish.fish_indent_path",
+        "title": "fish_indent Path",
+        "description": "Path to the fish_indent executable.",
+        "type": "path",
+        "default": "/opt/homebrew/bin/fish_indent"
+    }]
 }
