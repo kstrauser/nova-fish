@@ -3,7 +3,7 @@
     "name": "Fish",
     "organization": "Honeypot.net",
     "description": "Syntax highlighting for Fish shell scripts.",
-    "version": "0.2",
+    "version": "0.2.1",
     "categories": ["languages", "commands"],
     "homepage": "https://github.com/kstrauser/nova-fish",
     "bugs": "https://github.com/kstrauser/nova-fish/issues",
