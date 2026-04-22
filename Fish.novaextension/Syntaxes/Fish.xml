@@ -9,6 +9,13 @@
     <detectors>
         <extension priority="1.0">fish</extension>
     </detectors>
+
+    <comments>
+        <single>
+            <expression>#</expression>
+        </single>
+    </comments>
+    
     <tree-sitter language="fish">
         <highlights />
     </tree-sitter>
